@@ -1,0 +1,60 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+    
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kalkulator Super"
+        android:textSize="30sp"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center_horizontal"/>
+    
+    <TextView 
+        android:id="@+id/textview1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Masukkan Angka 1 "/>
+    <EditText 
+        android:id="@+id/input1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="angka pertama" />
+    <TextView 
+        android:id="@+id/textview2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Masukkan Angka 2 "/>
+    <EditText 
+        android:id="@+id/input2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="angka kedua" />
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+         <Button 
+            android:id="@+id/btnHps"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Hapus"
+            android:layout_weight="1"/>
+        <Button 
+            android:id="@+id/btnHitung"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Hitung"
+            android:layout_weight="1"/>
+        
+    </LinearLayout>
+    <TextView 
+        android:id="@+id/Hasil"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Hasil"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp "/>
+</LinearLayout>  
